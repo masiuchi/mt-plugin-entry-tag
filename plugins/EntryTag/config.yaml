@@ -1,0 +1,17 @@
+name: EntryTag
+version: 0.01
+
+description: <__trans phrase='Add "Tag" column to Manage Entries/Pages screen.'>
+plugin_link: https://github.com/masiuchi/mt-plugin-entry-tag
+
+author_name: Masahiro Iuchi
+author_link: https://github.com/masiuchi
+
+l10n_class: EntryTag::L10N
+
+list_properties:
+  entry:
+    tag:
+      label: Tag
+      display: default
+      html: $EntryTag::EntryTag::ListProps::tag
