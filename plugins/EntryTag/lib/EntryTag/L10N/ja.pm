@@ -4,9 +4,10 @@ use warnings;
 
 use base qw( EntryTag::L10N );
 
-our %Lexicon
-    = ( 'Add "Tag" column to Manage Entries/Pages screen.' =>
+our %Lexicon = (
+    'Add "Tag" column to Manage Entries/Pages screen.' =>
         '記事／ページ一覧の表示オプションに "タグ" を追加します。',
-    );
+    'Tag' => 'タグ',
+);
 
 1;
