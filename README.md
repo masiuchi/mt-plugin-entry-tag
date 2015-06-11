@@ -6,3 +6,6 @@
 
 ## 動作環境
 Movable Type 5.1 以降
+
+## ライセンス
+MIT License
